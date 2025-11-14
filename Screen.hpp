@@ -4,6 +4,7 @@
 #define SCREEN_HPP
 
 #include <vector>
+#include <stdexcept> 
 
 class Screen
 {
