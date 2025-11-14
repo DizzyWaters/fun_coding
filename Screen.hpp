@@ -18,14 +18,14 @@ class Screen
               , columns(y) {}
     
     char& at (int x, int y);
-    const char& at  (int x, int y) const;
+    const char& at (int x, int y) const;
     // operators
     char& operator()(int x, int y);
-    const char& operator()(int x, int y);
+    const char& operator()(int x, int y) const;
 
     int rowCount() const;
     int columnCount() const;
-}   
+};   
 
 
 
