@@ -1,12 +1,8 @@
-#include <iostream>
-
+#include "Game.hpp"
 
 int main()
 {
-
-    std::cout << "test\n" << std::endl;
-
-
+    Game game;
+    game.run();
     return 0;
 }
-

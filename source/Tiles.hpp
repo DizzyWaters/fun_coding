@@ -12,6 +12,6 @@ class Tile
 
     char getSymbol() const;
     bool isWalkable() const;
-}
+};
 
 #endif
