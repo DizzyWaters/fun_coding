@@ -24,6 +24,10 @@ public:
 protected:
     int m_x, m_y;
     char m_symbol;
+private:
+    int health;
+    int mana;
+    int stamina;
 };
 
 #endif
